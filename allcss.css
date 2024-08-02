@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+	/* outline: solid 2px; */
+}
+/* 以下針對整份設計稿中的img.a設定 */
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+}
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Bruno Ace SC";
+    color: #D1D1D1;
+	line-height: 1.5;
+}
+.h1{
+	font-size: 128px;
+}
+.h2{
+	font-size: 64px;
+}
+.fs-1{
+	font-size: 32px;
+}
+.fs-2{
+	font-size: 24px;
+}
+.fs-3{
+	font-size: 20px;
+}
+.mainColor{
+	color: #00FFA3;
+}
+.fsmcolor{
+	color: #000;
+}
+.d-flex{
+	display: flex;
+}
+.aic{
+	align-items: center;
+}
+.jcfe{
+	justify-content: flex-end;
+}
+.jcsb{
+	justify-content: space-between;
+}
+.fdc{
+	flex-direction: column;
+}
+.lis{
+	align-items: start;
+}
+.mlr6{
+	margin:0 24px;
+}
+.mlr5{
+	margin:0 20px;
+}
+.mtb10{
+	padding: 40px 0;
+}
+.mb6{
+	margin-bottom: 24px;
+}
+.mt9{
+	margin-top:36px;
+}
+.mb7{
+	margin-bottom:28px;
+}
+.mb8{
+	margin-bottom:32px;
+}
+.ptb40{
+	padding: 160px 0;
+}
+.gp6{
+	gap: 24px;
+}
+.ml6{
+	margin-left: 18px;
+}
+/* layout */
+.header{
+	background: #000;
+}
+.navTop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+}
+/* componet */
+.btn{
+	padding: 12px 24px;
+	border-radius: 32px;
+}
+.btnbright{
+	background: #ffffff;
+	color: #000;
+}
+.btndark{
+	background:  #000;
+	color: #ffffff;
+}
+/* pages 只有此頁面會出現的樣式*/
+.bannerTop{
+	background: #000;
+	color: white;
+}
+.elementPeople{
+	margin: 72px 24px 32px 0;
+}
+.bannerTop span{
+	display: block;
+	text-align: right;
+}
+.intro{
+	background-image: url("/img/background-img.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: white; 
+	padding: 160px;
+}
+.introContent{
+	width: 526px;
+}
+.aboutList{
+	width: 636px;
+	flex-wrap:wrap;	
+	/* justify-content: space-between;*/
+	gap: 24px;
+}
+.aboutList li{
+	width:calc(50% - 12px);
+	border: 1px solid #E3E3E3;
+	box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.08);
+}	
+.aboutDesc{
+	width: 526px;
+}
+.socialApp{
+	background: linear-gradient(rgba(5,0,20,1) , rgba(1, 2, 30, 0.89) 100%);
+	padding: 96px 0;
+}
+.socialApp h1{
+	color: #FFFFFF;
+}
+.appBtn{
+	border-radius: 40px;
+}
+.appBtn:hover{
+	box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+	transition: 1s;
+}
+.mpj{
+	width: 740px;
+	margin-left: auto;
+}
+.footer{
+	background: #000;
+}
+.footer p{
+	text-align: center;
+}
